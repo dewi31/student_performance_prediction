@@ -15,8 +15,8 @@ Sumber data: [Students' Performance](https://github.com/dicodingacademy/dicoding
 
 Setup environment:
 ```python
-mkdir project_attrition_analysis
-cd project_attrition_analysis
+mkdir student_performance_analysis
+cd student_performance_analysis
 pipenv install
 pipenv shell
 pip install -r requirements.txt
@@ -26,11 +26,14 @@ pip install -r requirements.txt
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
+Untuk menjalankan streamlit app dapat menjalankan perintah berikut,
+```python
+streamlit run app.py
 ```
+atau bisa menggunakan link URL streamlit app: [Student Dropout Prediction](https://student-dropout-prediction-31.streamlit.app/).
 
-```
+Cara pengisian dapat dilihat pada video singkat berikut: [Video Tutorial Pengisian](https://www.awesomescreenshot.com/video/32451396?key=ae274d22cb7e9b557765cfc93be79d21)
+
 
 ## Conclusion
 Jelaskan konklusi dari proyek yang dikerjakan.
